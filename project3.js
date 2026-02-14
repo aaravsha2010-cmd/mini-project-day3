@@ -4,7 +4,15 @@ function setup() {
 }
 
 function draw() {
+  
  noStroke();
-  fill(40, 55, 54);
-  circle(mouseX, mouseY, 75, 75)
+  fill(0, 255, 255)
+  circle(mouseX, mouseY, 75)
+  
+}
+
+function mousePressed() {
+  
+  background(220)
+
 }
